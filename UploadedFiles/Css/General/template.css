@@ -1,3 +1,7 @@
+body, p,li,td,a,h1,h2,h3,h4,h5,h6, dd, dt, div, span{
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "DejaVu Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
 .blue {
 background: #4e9cf2; /* Old browsers */
 background: -moz-linear-gradient(top, #4e9cf2 0%, #408aed 28%, #357ce7 44%, #3179e3 47%, #3176e4 50%, #2a70e3 56%, #2b6ddf 59%, #2163db 72%, #2260db 75%, #1a57d3 88%, #164fd3 100%); /* FF3.6+ */
