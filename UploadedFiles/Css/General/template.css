@@ -190,9 +190,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f500fe', end
 
 .main p {
     text-align:justify;
-    font-size:17px;
+    font-size:16px;
     word-spacing:3px;
-    line-height:25px;
+    line-height:24px;
 }
 
 
@@ -285,6 +285,12 @@ ul.menu {
     .hero .pagetitle h1 {
         font-size:18px;
         line-height:24px;
+    }
+    .main p {
+        text-align:justify;
+        font-size:12px;
+        word-spacing:3px;
+        line-height:18px;
     }
 
 
