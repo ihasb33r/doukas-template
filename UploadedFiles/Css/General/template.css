@@ -315,8 +315,6 @@ ul.menu {
         word-spacing:3px;
         line-height:18px;
     }
-
-
     li.section {
         width:92%;
         margin:0px 4%
@@ -330,13 +328,21 @@ ul.menu {
         background-image: url("../../Images/Template/arrow_right.png");
         background-repeat:no-repeat;
         background-position:right;
-        line-height:36px;
+        line-height:28px;
+        margin:0px 10px;
+        border-bottom:1px dotted lightgray;
     }
     li.section h3.open{
         background-image: url("../../Images/Template/arrow_down.png");
     }
     li.section .menu.open {
         display:block;
+
+    }
+    li.section li {
+
+        font-size:16px;
+        line-height:24px;
 
     }
 
