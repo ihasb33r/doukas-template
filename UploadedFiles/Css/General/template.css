@@ -271,6 +271,14 @@ ul.menu {
         padding: 5px 5px;
         font-size:11px;
     }
+li.section {
+    width: 26%;
+    margin: 0px;
+    display:inline-block;
+    zoom:1;
+    padding: 20px 3%;
+    color:#5c5c5c;
+}
 }
 
 
