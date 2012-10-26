@@ -226,13 +226,13 @@ ul.menu {
         display:none;
     }
     li.section h3 {
-        background-image: url("/UploadedFiles/Images/Template/arrow_right.png");
+        background-image: url("../../../Images/Template/arrow_right.png");
         background-repeat:no-repeat;
         background-position:right;
         line-height:36px;
     }
     li.section h3.open{
-        background-image: url("/UploadedFiles/Images/Template/arrow_down.png");
+        background-image: url("../../../Images/Template/arrow_down.png");
     }
     li.section .menu.open {
         display:block;
