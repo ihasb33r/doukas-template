@@ -401,13 +401,16 @@
             $(document).ready(function(){
 
                 $("li.section h3").click(function(){
-                    $(this).removeClass("open");
-                    $("li.section h3").removeClass("open");
-                    $(".menu").removeClass("open");
-
-                    $(this).next(".menu").toggleClass("open");
-
-                    $(this).toggleClass("open");
+                    if ($(this).hasClass("open")){
+                        $(".open").removeClass("open")
+                    }
+                    else{
+                        $(this).removeClass("open");
+                        $("li.section h3").removeClass("open");
+                        $(".menu").removeClass("open");
+                        $(this).next(".menu").toggleClass("open");
+                        $(this).toggleClass("open");
+                    }
 
 
             });
