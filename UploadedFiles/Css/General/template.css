@@ -282,7 +282,7 @@ ul.associates li {
 
     }
     ul.associates li {
-        max-width: none;
+        max-width: 130px;
     }
 
 }
