@@ -207,12 +207,26 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f500fe', end
 
 
 
-ul.social {
+ul.social , ul.media{
     margin:0px;
 }
-ul.social li {
+ul.social li , ul.media li{
     display:inline;
     margin-right:20px;
+}
+
+ul.media li a {
+    margin-bottom:10px;
+
+
+    float:left;
+    margin-right:10px;
+    display:block;
+    width:20px;
+    height:20px;
+    border-radius:5px;
+    background-color:gray;
+
 }
 
 
