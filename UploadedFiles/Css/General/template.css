@@ -161,6 +161,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f500fe', end
     background-repeat:no-repeat;
     background-position:right;
 }
+
+.topmenu table {
+    display:none;
+}
+
+
+
 .hero .pagetitle{
     background-color:rgba(255,0,0,0.8);
     margin-top:-60px;
@@ -253,6 +260,7 @@ li.section {
     width: 15.5%;
     margin: 0px;
     display:inline-block;
+    *display:inline;
     zoom:1;
     padding: 2%;
     color:#5c5c5c;
@@ -298,6 +306,7 @@ ul.associates {
 
 ul.associates li {
     display: inline-block;
+    *display:inline;
     margin: 0px;
     padding: 0px;
     max-width: 94px;
