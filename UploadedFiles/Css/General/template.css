@@ -218,17 +218,16 @@ ul.social , ul.media{
     margin:0px;
 }
 ul.social li , ul.media li{
-    display:inline;
+    display: inline-block;
+    *display:inline;
     margin-right:20px;
 }
 
-ul.media li a {
+ul.media li {
     margin-bottom:10px;
-
-
+    margin-right:10px;
     float:left;
     margin-right:10px;
-    display:block;
     width:20px;
     height:20px;
     border-radius:5px;
