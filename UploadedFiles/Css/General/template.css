@@ -133,26 +133,29 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f500fe', end
 
 .topmenu {
     text-align:center;
-    margin-top:18px;
-    width: 95%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top:12px;
+    width: 100%;
+    margin-left:2px ;
+    margin-right: 5px;
 }
 .topmenu li.main {
     text-align:center;
     display:block;
     float:left;
-    margin-right:4px;
+    margin-right:2px;
 }
 .topmenu li.main a{
     /*width:122px;*/
     text-align:center;
-    padding:5px 16px;
+    padding:5px 17px;
     border-top-right-radius:3px;
     border-top-left-radius:3px;
     color:white;
     font-weight:bold;
+    float:left;
+    font-size:12px;
     behavior:url("/doukas-template/UploadedFiles/Javascripts/General/PIE.htc");
+
 }
 
 .topmenu .toggle{
@@ -185,11 +188,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f500fe', end
     list-style:none;
     padding:10px 30px;
     text-align:left;
+    width:480px;
 }
 .topmenu li.main .sub1 li {
 
     font-size:14px;
     line-height:21px;
+}
+.topmenu li.main .sub1>li {
+
+    width:230px;
+    float:left;
+    margin-left:10px;
 }
 
 .topmenu li.main:hover .menucont{
@@ -388,15 +398,28 @@ ul.associates li {
 
 @media (min-width: 1200px){
     .topmenu {
-        margin-top:11px;
+        margin-top:2px;
+        width:auto;
+        margin-left:24px;
+        margin-right:24px;
+    }
+    .topmenu li.main {
+
+        margin-right:3px;
     }
 
     .topmenu li.main a {
-
+        width:121px;
+        height:24px;
         font-size:14px;
-        padding:10px 20px;
+        padding: 0px;
+        padding-top:10px;
 
     }
+    .topmenu li.main .sub>li {
+        display:inline;
+    }
+
     ul.associates li {
         max-width: 130px;
     }
