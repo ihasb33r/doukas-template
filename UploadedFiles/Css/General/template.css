@@ -343,6 +343,7 @@ li.section {
     /*end of hack */
     padding: 2%;
     color:#5c5c5c;
+    vertical-align:top;
 }
 li.section h3{
     font-size: 22px;
@@ -351,6 +352,11 @@ li.section h3{
     font-weight: normal;
     color:#444;
 }
+li.section a {
+    color:#666;
+    text-decoration:none;
+}
+
 li 
 {
     font-size:11px;
@@ -507,7 +513,6 @@ ul.associates li {
         width:92%;
         margin:0px 4%
         padding:0px;
-
     }
     li.section .menu {
         display:none;
