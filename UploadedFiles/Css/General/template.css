@@ -215,10 +215,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f500fe', end
 
 
 .hero .pagetitle{
+    background-color:#FF0000;
     background-color:rgba(255,0,0,0.8);
-    /*hack for ie7-ie8 */
-    background-color:rgb(255,0,0)\9;
-    /*end of hack */
+    padding:5px 34px;
 
 }
 .hero .pagetitle h1 {
@@ -491,6 +490,7 @@ ul.associates li {
         text-decoration:none;
     }
     .hero .pagetitle {
+        background-color: #ff0000;
         background-color: rgba(255, 0, 0, 0.8);
     }
     .hero .pagetitle h1 {
