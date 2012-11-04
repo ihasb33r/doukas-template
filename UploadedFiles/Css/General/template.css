@@ -203,6 +203,24 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f500fe', end
     float:left;
     margin-left:10px;
 }
+.topmenu ul.sub1 ul {
+    list-style:none;
+    padding:0px;
+    margin:0 0 0px 14px;
+}
+.topmenu ul.sub1 a {
+    color:#666;
+    text-decoration:none;
+}
+.topmenu ul.sub1 a:hover {
+    color:#777;
+    text-decoration:none;
+}
+.topmenu ul.sub1 ul li:before{
+
+    content:"-";
+
+}
 
 .topmenu li.main:hover .menucont{
     display:block;
@@ -330,6 +348,7 @@ ul.bottommenu {
 
     background-image:url("/doukas-template/UploadedFiles/Images/Template/bottommenubackground.png");
     background-repeat:repeat-x;
+    background-position:center top;
 
     list-style:none;
     margin:0px;
@@ -357,6 +376,9 @@ li.section h3{
 li.section a {
     color:#666;
     text-decoration:none;
+}
+li.section a:hover {
+    color:#777;
 }
 
 li 
