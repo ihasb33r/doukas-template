@@ -5,6 +5,7 @@ div.menu {
 height: 58px;
 position: relative;
 z-index: 10000;
+text-align:center;
 
 }
 
@@ -93,9 +94,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f500fe', end
 }
 
 
-.login {
-
-}
 .login a {
     float:right;
     width:150px;
@@ -126,18 +124,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f500fe', end
 }
 
 .lang {
+    margin-top:5px;
     text-align:right;
     white-space:normal;
 }
 .lang a {
     color:gray;
 }
-
 .topmenu {
-    text-align:center;
     margin-top:12px;
     width: 100%;
-    margin-left:2px ;
+    margin-left:2px;
     margin-right: 5px;
 }
 .topmenu li.main {
@@ -150,6 +147,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f500fe', end
     /*width:122px;*/
     text-align:center;
     padding:5px 17px;
+    padding:5px 22px\9;
     border-top-right-radius:6px;
     border-top-left-radius:6px;
     color:white;
@@ -177,10 +175,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f500fe', end
 
 .topmenu li.main .menucont {
     width:20px;
-    margin-top:10px;
-
+    margin-top:25px;
     display:none;
 }
+
 .topmenu li.main .sub1 {
     background-color:lightgray;
     float:left;
@@ -226,9 +224,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f500fe', end
     display:block;
 }
 
-.topmenu table {
-    display:none;
-}
 
 
 
