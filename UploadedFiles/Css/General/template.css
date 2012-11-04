@@ -450,6 +450,8 @@ ul.associates li {
     .topmenu li.main a {
         padding:5px;
     }
+
+
     li.section {
         width: 26%;
         padding: 20px 3%;
@@ -503,6 +505,9 @@ ul.associates li {
         font-size:18px;
         line-height:24px;
     }
+.main .news ul li {
+    width:100%;
+}
     .main p {
         text-align:justify;
         font-size:12px;
