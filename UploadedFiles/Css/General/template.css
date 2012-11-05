@@ -6,7 +6,7 @@ height: 58px;
 position: relative;
 z-index: 10000;
 text-align:center;
-margin-left:2%\9;
+padding-left:10px;
 
 }
 
@@ -147,8 +147,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f500fe', end
 .topmenu li.main>a{
     /*width:122px;*/
     text-align:center;
-    padding:5px 17px;
-    padding:5px 22px\9;
+    padding:5px 22px;
     border-top-right-radius:6px;
     border-top-left-radius:6px;
     color:white;
@@ -541,8 +540,7 @@ ul.associates li {
         font-size:11px;
     }
     .topmenu li.main a {
-        padding:5px;
-        padding: 5px 10px\9;
+        padding:5px 10px;
     }
 
 
