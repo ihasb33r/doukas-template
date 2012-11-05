@@ -6,6 +6,7 @@
     <link href="./UploadedFiles/Css/General/bootstrap.min.css" rel="stylesheet">
     <link href="./UploadedFiles/Css/General/bootstrap-responsive.min.css" rel="stylesheet">
     <link href="./UploadedFiles/Css/General/template.css" rel="stylesheet">
+    <link href="./UploadedFiles/Css/home.css" rel="stylesheet">
   </head>
     <body>
         <div class="container">
@@ -18,14 +19,17 @@
                 <div class="span5 logo">
                     <a href="/"><img src="./UploadedFiles/Images/Template/logo.png"/></a>
                 </div>
-                <div class="span3 offset1 search">
+                <div class="span4 offset1 search">
                     <div class="input-append">
                         <input type="text" placeholder="Αναζήτηση"/><span class="add-on"><img src="./UploadedFiles/Images/Template/search.png"/></span>
                     </div>
                 </div>
-                <div class="span3 lang">
-                    <a href="/gr">ΕΛΛΗΝΙΚΑ</a>|<a href="/en">ΑΓΓΛΙΚΑ</a>
+                <div class="span2 lang">
+                    <div>
+                        <a href="/gr">ΕΛΛΗΝΙΚΑ</a> <span class="hidden-tablet">|</span> <a href="/en">ΑΓΓΛΙΚΑ</a>
+                    </div>
                 </div>
+
             </div>
             <div class="row">
                 <div class="span12 menu">
@@ -34,120 +38,307 @@
                         <li class=" main" id="tab1">
                         <a class="red" href="#">Νηπιαγωγείο</a>
                         <div class="menucont">
-                        <ul class="sub1">
-                            <li><a href="#">Σκοποί και Στόχοι</a></li>
-                            <li><a href="#">
-                            Εκπαιδευτικό Πρόγραμμα
-                            <ul>
-                                <li><a href="#">Βασικό Πρόγραμμα</a></li>
-                                <li><a href="#">Διευρυμένο</a></li>
+                            <ul class="sub1">
+                                <li><a href="#">Σκοποί και Στόχοι</a></li>
+                                <li><a href="#">
+                                    Εκπαιδευτικό Πρόγραμμα
+                                    <ul>
+                                        <li><a href="#">Βασικό Πρόγραμμα</a></li>
+                                        <li><a href="#">Διευρυμένο</a></li>
+                                    </ul>
+                                </a></li>
+                                <li><a href="#">Ανακοινώσεις</a></li>
+                                <li><a href="#">Απογευματινά Τμήματα</a></li>
+                                <li><a href="#">
+                                    Εκδηλώσεις - Δραστηριότητες
+                                </a>
+                                <ul>
+                                    <li><a href="#">Εκδρομές</a></li>
+                                    <li><a href="#">Μορφωτικές Δραστηριότητες</a></li>
+                                    <li><a href="#">Πολιτιστικές Δραστηριότητες</a></li>
+                                </ul>
+                                </li>
+                                <li><a href="#">Σχολικά Εφόδια</a></li>
+                                <li><a href="#">Κανόνες - Κανονισμοί</a></li>
+                                <li><a href="#">Συχνές Ερωτήσεις</a></li>
                             </ul>
-                            </a></li>
-                            <li><a href="#">Ανακοινώσεις</a></li>
-                            <li><a href="#">Απογευματινά Τμήματα</a></li>
-                            <li><a href="#">
-                            Εκδηλώσεις - Δραστηριότητες
-                            </a>
-                            <ul>
-                                <li><a href="#">Εκδρομές</a></li>
-                                <li><a href="#">Μορφωτικές Δραστηριότητες</a></li>
-                                <li><a href="#">Πολιτιστικές Δραστηριότητες</a></li>
-                            </ul>
-                            </li>
-                            <li><a href="#">Σχολικά Εφόδια</a></li>
-                            <li><a href="#">Κανόνες - Κανονισμοί</a></li>
-                            <li><a href="#">Συχνές Ερωτήσεις</a></li>
-                        </ul>
-                    </div>
+                        </div>
                         </li>
                         <li id="tab2" class="main">
                         <a class="purple" href="#">Δημοτικό</a>
                         <div class="menucont">
-                        <ul class="sub1">
-                            <li>Σκοποί και Στόχοι</li>
-                            <li>
-                            Εκπαιδευτικό Πρόγραμμα
-                            <ul>
-                                <li>Βασικό Πρόγραμμα</li>
-                                <li>Διευρυμένο</li>
+                            <ul class="sub1">
+                                <li><a href="#">Σκοποί και Στόχοι</a></li>
+                                <li>
+                                <a href="#">Εκπαιδευτικό Πρόγραμμα</a>
+                                <ul>
+                                    <li><a href="#">Βασικό Πρόγραμμα</a></li>
+                                    <li><a href="#">Διευρυμένο</a></li>
+                                </ul>
+                                </li>
+                                <li><a href="#">Εκπαιδευτικό Mοντέλο 1:1</a></li>
+                                <li><a href="#">Ανακοινώσεις</a></li>
+                                <li><a href="#">Απογευματινά Τμήματα</a></li>
+                                <li><a href="#">
+                                    Εκδηλώσεις - Δραστηριότητες
+                                </a>
+                                <ul>
+                                    <li><a href="#">Εκδρομές</a></li>
+                                    <li><a href="#">Αθλητικές Δραστηριότητες</a></li>
+                                    <li><a href="#">Μορφωτικές Δραστηριότητες</a></li>
+                                    <li><a href="#">Πολιτιστικές Δραστηριότητες</a></li>
+                                </ul>
+                                </li>
+                                <li><a href="#">Σχολικά Εφόδια</a></li>
+                                <li><a href="#">Κανόνες - Κανονισμοί</a></li>
+                                <li><a href="#">Συχνές Ερωτήσεις</a></li>
+                                <li><a href="#">Επικοινωνία</a></li>
                             </ul>
-                            </li>
-                            <li>Ανακοινώσεις</li>
-                            <li>Απογευματινά Τμήματα</li>
-                            <li>
-                            Εκδηλώσεις - Δραστηριότητες
-                            <ul>
-                                <li>Εκδρομές</li>
-                                <li>Μορφωτικές Δραστηριότητες</li>
-                                <li>Πολιτιστικές Δραστηριότητες</li>
-                            </ul>
-                            </li>
-                            <li>Σχολικά Εφόδια</li>
-                            <li>Κανόνες - Κανονισμοί</li>
-                            <li>Συχνές Ερωτήσεις</li>
-                        </ul>
-                    </div>
+                        </div>
                         </li>
                         <li id="tab3" class="main">
                         <a href="#" class="pink ">
-                        Γυμνάσιο
-                    </a>
+                            Γυμνάσιο
+                        </a>
+                        <div class="menucont">
+                            <ul class="sub1">
+                                <li><a href="#">Σκοποί και Στόχοι</a></li>
+                                <li>
+                                <a href="#">Εκπαιδευτικό Πρόγραμμα</a>
+                                <ul>
+                                    <li><a href="#">Βασικό Πρόγραμμα</a></li>
+                                    <li><a href="#">Διευρυμένο</a></li>
+                                </ul>
+                                </li>
+                                <li><a href="#">Εκπαιδευτικό Mοντέλο 1:1</a></li>
+                                <li><a href="#">Ανακοινώσεις</a></li>
+                                <li><a href="#">Απογευματινά Τμήματα</a></li>
+                                <li><a href="#">
+                                    Εκδηλώσεις - Δραστηριότητες
+                                </a>
+                                <ul>
+                                    <li><a href="#">Εκδρομές</a></li>
+                                    <li><a href="#">Αθλητικές Δραστηριότητες</a></li>
+                                    <li><a href="#">Μορφωτικές Δραστηριότητες</a></li>
+                                    <li><a href="#">Πολιτιστικές Δραστηριότητες</a></li>
+                                </ul>
+                                </li>
+                                <li><a href="#">Σχολικά Εφόδια</a></li>
+                                <li><a href="#">Κανόνες - Κανονισμοί</a></li>
+                                <li><a href="#">Συχνές Ερωτήσεις</a></li>
+                                <li><a href="#">Επικοινωνία</a></li>
+                            </ul>
+                        </div>
                         </li>
                         <li id="tab4" class="main">
                         <a href="#" class="blue ">
-                        Λύκειο
+                            Λύκειο
                         </a>
+                        <div class="menucont">
+                            <ul class="sub1">
+                                <li><a href="#">Σκοποί και Στόχοι</a></li>
+                                <li>
+                                <a href="#">Εκπαιδευτικό Πρόγραμμα</a>
+                                <ul>
+                                    <li><a href="#">Βασικό Πρόγραμμα</a></li>
+                                    <li><a href="#">Διευρυμένο</a></li>
+                                </ul>
+                                </li>
+                                <li><a href="#">Εκπαιδευτικό Mοντέλο 1:1</a></li>
+                                <li><a href="#">Ανακοινώσεις</a></li>
+                                <li><a href="#">Απογευματινά Τμήματα</a></li>
+                                <li><a href="#">
+                                    Εκδηλώσεις - Δραστηριότητες
+                                </a>
+                                <ul>
+                                    <li><a href="#">Εκδρομές</a></li>
+                                    <li><a href="#">Αθλητικές Δραστηριότητες</a></li>
+                                    <li><a href="#">Μορφωτικές Δραστηριότητες</a></li>
+                                    <li><a href="#">Πολιτιστικές Δραστηριότητες</a></li>
+                                </ul>
+                                </li>
+                                <li><a href="#">Σχολικά Εφόδια</a></li>
+                                <li><a href="#">Κανόνες - Κανονισμοί</a></li>
+                                <li><a href="#">Συχνές Ερωτήσεις</a></li>
+                                <li><a href="#">Επικοινωνία</a></li>
+                            </ul>
+                        </div>
                         </li>
                         <li id="tab5" class="main">
                         <a href="#" class="green ">
-                        ΙΒ
+                            ΙΒ
                         </a>
+                        <div class="menucont">
+                            <ul class="sub1">
+                                <li><a href="#">Σκοποί και Στόχοι</a></li>
+                                <li><a href="#">PRE - IB</a></li>
+                                <li><a href="#">
+                                    Εκπαιδευτικό Πρόγραμμα
+                                    <ul>
+                                        <li><a href="#">Πρόγραμμα Σπουδών</a></li>
+                                        <li><a href="#">Απόκτηση Διπλώματος</a></li>
+                                        <li><a href="#">Εγγραφή σε Πανεπιστήμιο</a></li>
+                                    </ul>
+                                </a></li>
+                                <li><a href="#">Ανακοινώσεις</a></li>
+                                <li><a href="#">
+                                    Εκδηλώσεις - Δραστηριότητες
+                                </a>
+                                <ul>
+                                    <li><a href="#">Εκδρομές</a></li>
+                                    <li><a href="#">Μορφωτικές Δραστηριότητες</a></li>
+                                    <li><a href="#">Πολιτιστικές Δραστηριότητες</a></li>
+                                </ul>
+                                </li>
+                                <li><a href="#">Συχνές Ερωτήσεις</a></li>
+                                <li><a href="#">Επικοινωνία</a></li>
+                            </ul>
+                        </div>
                         </li>
                         <li id="tab6" class="main">
                         <a href="#" class="yellow ">
-                        Ξένες Γλώσσες
+                            Ξένες Γλώσσες
                         </a>
+                        <div class="menucont">
+                            <ul class="sub1">
+                                <li><a href="#">Σκοποί και Στόχοι</a></li>
+                                <li>
+                                <a href="#">Εκπαιδευτικό Πρόγραμμα</a>
+                                <ul>
+                                    <li><a href="#">Πρόγραμμα Σπουδών</a></li>
+                                    <li><a href="#">Επίπεδα Ικανότητας</a></li>
+                                    <li><a href="#">Δίγλωσσοι Μαθητές</a></li>
+                                    <li><a href="#">Learner's Genie</a></li>
+                                </ul>
+                                </li>
+                                <li><a href="#">Ανακοινώσεις</a></li>
+                                <li><a href="#">
+                                    Εκδηλώσεις - Δραστηριότητες
+                                </a>
+                                <ul>
+                                    <li><a href="#">Εκδρομές</a></li>
+                                    <li><a href="#">Μορφωτικές Δραστηριότητες</a></li>
+                                    <li><a href="#">Πολιτιστικές Δραστηριότητες</a></li>
+                                </ul>
+                                </li>
+                                <li><a href="#">Εξετάσεις</a></li>
+                                <li><a href="#">Συχνές Ερωτήσεις</a></li>
+                                <li><a href="#">Ηλ. Εφημερίδα</a></li>
+                                <li><a href="#">Επικοινωνία</a></li>
+                            </ul>
+                        </div>
                         </li>
                         <li id="tab7" class="main">
                         <a href="#" class="lime ">
-                        Φυσική Αγωγή
+                            Φυσική Αγωγή
                         </a>
+                        <div class="menucont">
+                            <ul class="sub1">
+                                <li><a href="#">Σκοποί και Στόχοι</a></li>
+                                <li>
+                                <a href="#">Εκπαιδευτικό Πρόγραμμα</a>
+                                <ul>
+                                    <li><a href="#">Νηπιαγωγείο</a></li>
+                                    <li><a href="#">Δημοτικό</a></li>
+                                    <li><a href="#">Γυμνάσιο</a></li>
+                                    <li><a href="#">Λύκειο/ΙΒ</a></li>
+                                </ul>
+                                </li>
+                                <li><a href="#">Αθλητικό Απόγευμα</a></li>
+                                <li><a href="#">Συχνές Ερωτήσεις</a></li>
+                                <li><a href="#">Σχολικός Αθλητισμός</a></li>
+                                <li><a href="#">ΑΣΙΣ</a></li>
+                                <li><a href="#">Εσωτερικό Πρωτάθλημα</a></li>
+                                <li><a href="#">Δράσεις</a></li>
+                                <li><a href="#">Επικοινωνία</a></li>
+                            </ul>
+                        </div>
                         </li>
                         <li id="tab8" class="main">
                         <a href="#" class="blue ">
-                        Πληροφορική
+                            Πληροφορική
                         </a>
+                        <div class="menucont">
+                            <ul class="sub1">
+                                <li><a href="#">Σκοποί και Στόχοι</a></li>
+                                <li>
+                                <a href="#">Βαθμίδες</a>
+                                <ul>
+                                    <li><a href="#">Νηπιαγωγείο</a></li>
+                                    <li><a href="#">Δημοτικό</a></li>
+                                    <li><a href="#">Γυμνάσιο</a></li>
+                                    <li><a href="#">Λύκειο/ΙΒ</a></li>
+                                </ul>
+                                </li>
+                                <li>
+                                <a href="#">Ερευνα και Ανάπτυξη</a>
+                                <ul>
+                                    <li><a href="#">έρευνα και Καινοτομίες</a></li>
+                                    <li><a href="#">Ερευνιτικά Προγράμματα</a></li>
+                                </ul>
+                                </li>
+                                <li><a href="#">Δραστηριότητες</a></li>
+                                <li><a href="#">Μεθοδολογίες 1:1</a></li>
+                                <li><a href="#">Σχέδια Εργασίας</a></li>
+                                <li><a href="#">Λυσίας</a></li>
+                                <li><a href="#">Δράσεις</a></li>
+                                <li>
+                                <a href="#">Υποδομές</a>
+                                <ul>
+                                    <li><a href="#">Πληροφοριακά Συστήματα</a></li>
+                                    <li><a href="#">Μαθητικος Υπολογιστής</a></li>
+                                    <li><a href="#">Εκπαιδευτικό ψηφιακό υλικό</a></li>
+                                    <li><a href="#">Οπτικοακουστικά</a></li>
+                                    <li><a href="#">Πολυμέσα</a></li>
+                                </ul>
+                                </li>
+                                <li><a href="#">Επικοινωνία</a></li>
+                            </ul>
+                        </div>
                         </li>
                         <li id="tab9" class="main">
                         <a href="#" class="green ">
-                        Εμείς
+                            Εμείς
                         </a>
                         <div class="menucont">
-                        <ul class="sub1">
-                            <li>Σκοποί και Στόχοι</li>
-                            <li>
-                            Εκπαιδευτικό Πρόγραμμα
-                            <ul>
-                                <li>Βασικό Πρόγραμμα</li>
-                                <li>Διευρυμένο</li>
+                            <ul class="sub1">
+                                <li><a href="#">Σκοποί και Στόχοι</a></li>
+                                <li>
+                                <a href="#">Βαθμίδες</a>
+                                <ul>
+                                    <li><a href="#">Νηπιαγωγείο</a></li>
+                                    <li><a href="#">Δημοτικό</a></li>
+                                    <li><a href="#">Γυμνάσιο</a></li>
+                                    <li><a href="#">Λύκειο/ΙΒ</a></li>
+                                </ul>
+                                </li>
+                                <li>
+                                <a href="#">Ερευνα και Ανάπτυξη</a>
+                                <ul>
+                                    <li><a href="#">έρευνα και Καινοτομίες</a></li>
+                                    <li><a href="#">Ερευνιτικά Προγράμματα</a></li>
+                                </ul>
+                                </li>
+                                <li><a href="#">Δραστηριότητες</a></li>
+                                <li><a href="#">Μεθοδολογίες 1:1</a></li>
+                                <li><a href="#">Σχέδια Εργασίας</a></li>
+                                <li><a href="#">Λυσίας</a></li>
+                                <li><a href="#">Δράσεις</a></li>
+                                <li>
+                                <a href="#">Υποδομές</a>
+                                <ul>
+                                    <li><a href="#">Πληροφοριακά Συστήματα</a></li>
+                                    <li><a href="#">Μαθητικος Υπολογιστής</a></li>
+                                    <li><a href="#">Εκπαιδευτικό ψηφιακό υλικό</a></li>
+                                    <li><a href="#">Οπτικοακουστικά</a></li>
+                                    <li><a href="#">Πολυμέσα</a></li>
+                                </ul>
+                                </li>
+                                <li><a href="#">Επικοινωνία</a></li>
                             </ul>
-                            </li>
-                            <li>Ανακοινώσεις</li>
-                            <li>Απογευματινά Τμήματα</li>
-                            <li>
-                            Εκδηλώσεις - Δραστηριότητες
-                            <ul>
-                                <li>Εκδρομές</li>
-                                <li>Μορφωτικές Δραστηριότητες</li>
-                                <li>Πολιτιστικές Δραστηριότητες</li>
-                            </ul>
-                            </li>
-                            <li>Σχολικά Εφόδια</li>
-                            <li>Κανόνες - Κανονισμοί</li>
-                            <li>Συχνές Ερωτήσεις</li>
-                        </ul>
-                    </div>
+                        </div>
                         </li>
+
                     </ul>
                 </div>
             </div>
@@ -156,14 +347,20 @@
                     <div id="myCarousel" class="carousel slide">
                         <div class="carousel-inner">
                             <div class="item active">
-                                <img src="./UploadedFiles/Images/sevenwhys.png" alt="">
+                                <img src="./UploadedFiles/Images/sevenwhys.jpg"/>
                                 <div class="carousel-caption pagetitle">
-                                    <h1>Τα 7 γιατί</h1>
+                                    <h1>Κάθε μαθητής είναι ξεχωριστός</h1>
+                                </div>
+                            </div>
+                            <div class="item ">
+                                <img src="./UploadedFiles/Images/sevenwhys.jpg"/>
+                                <div class="carousel-caption pagetitle">
+                                    <h1>Every student is special</h1>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <img src="./UploadedFiles/Images/sevenwhys.jpg"/>
+
                 </div>
             </div>
 
@@ -211,31 +408,32 @@
             </div>
             <div class="row">
                 <div class="span12 navigation">
-                    <ul class="navigation clearfix">
+                    <ul id="bottommenu" class="bottommenu clearfix">
                         <li class="section">
                         <h3 class="sectionname">Νηπιαγωγείο</h3>
                         <ul class="menu">
-                            <li>Σκοποί και Στόχοι</li>
-                            <li>
+                            <li><a href="#">Σκοποί και Στόχοι</a></li>
+                            <li><a href="#">
                             Εκπαιδευτικό Πρόγραμμα
                             <ul>
-                                <li>Βασικό Πρόγραμμα</li>
-                                <li>Διευρυμένο</li>
+                                <li><a href="#">Βασικό Πρόγραμμα</a></li>
+                                <li><a href="#">Διευρυμένο</a></li>
                             </ul>
-                            </li>
-                            <li>Ανακοινώσεις</li>
-                            <li>Απογευματινά Τμήματα</li>
-                            <li>
+                            </a></li>
+                            <li><a href="#">Ανακοινώσεις</a></li>
+                            <li><a href="#">Απογευματινά Τμήματα</a></li>
+                            <li><a href="#">
                             Εκδηλώσεις - Δραστηριότητες
+                            </a>
                             <ul>
-                                <li>Εκδρομές</li>
-                                <li>Μορφωτικές Δραστηριότητες</li>
-                                <li>Πολιτιστικές Δραστηριότητες</li>
+                                <li><a href="#">Εκδρομές</a></li>
+                                <li><a href="#">Μορφωτικές Δραστηριότητες</a></li>
+                                <li><a href="#">Πολιτιστικές Δραστηριότητες</a></li>
                             </ul>
                             </li>
-                            <li>Σχολικά Εφόδια</li>
-                            <li>Κανόνες - Κανονισμοί</li>
-                            <li>Συχνές Ερωτήσεις</li>
+                            <li><a href="#">Σχολικά Εφόδια</a></li>
+                            <li><a href="#">Κανόνες - Κανονισμοί</a></li>
+                            <li><a href="#">Συχνές Ερωτήσεις</a></li>
                         </ul>
                         </li>
 
@@ -244,243 +442,266 @@
                         <li class="section">
                         <h3 class="sectionname">Δημοτικό</h3>
                         <ul class="menu">
-                            <li>Σκοποί και Στόχοι</li>
+                            <li><a href="#">Σκοποί και Στόχοι</a></li>
                             <li>
-                            Εκπαιδευτικό Πρόγραμμα
+                            <a href="#">Εκπαιδευτικό Πρόγραμμα</a>
                             <ul>
-                                <li>Βασικό Πρόγραμμα</li>
-                                <li>Διευρυμένο</li>
+                                <li><a href="#">Βασικό Πρόγραμμα</a></li>
+                                <li><a href="#">Διευρυμένο</a></li>
                             </ul>
                             </li>
-                            <li>Ανακοινώσεις</li>
-                            <li>Απογευματινά Τμήματα</li>
-                            <li>
+                            <li><a href="#">Εκπαιδευτικό Mοντέλο 1:1</a></li>
+                            <li><a href="#">Ανακοινώσεις</a></li>
+                            <li><a href="#">Απογευματινά Τμήματα</a></li>
+                            <li><a href="#">
                             Εκδηλώσεις - Δραστηριότητες
+                            </a>
                             <ul>
-                                <li>Εκδρομές</li>
-                                <li>Μορφωτικές Δραστηριότητες</li>
-                                <li>Πολιτιστικές Δραστηριότητες</li>
+                                <li><a href="#">Εκδρομές</a></li>
+                                <li><a href="#">Αθλητικές Δραστηριότητες</a></li>
+                                <li><a href="#">Μορφωτικές Δραστηριότητες</a></li>
+                                <li><a href="#">Πολιτιστικές Δραστηριότητες</a></li>
                             </ul>
                             </li>
-                            <li>Σχολικά Εφόδια</li>
-                            <li>Κανόνες - Κανονισμοί</li>
-                            <li>Συχνές Ερωτήσεις</li>
+                            <li><a href="#">Σχολικά Εφόδια</a></li>
+                            <li><a href="#">Κανόνες - Κανονισμοί</a></li>
+                            <li><a href="#">Συχνές Ερωτήσεις</a></li>
+                            <li><a href="#">Επικοινωνία</a></li>
                         </ul>
                         </li>
 
                         <li class="section">
                         <h3 class="sectionname">Γυμνάσιο</h3>
                         <ul class="menu">
-                            <li>Σκοποί και Στόχοι</li>
+                            <li><a href="#">Σκοποί και Στόχοι</a></li>
                             <li>
-                            Εκπαιδευτικό Πρόγραμμα
+                            <a href="#">Εκπαιδευτικό Πρόγραμμα</a>
                             <ul>
-                                <li>Βασικό Πρόγραμμα</li>
-                                <li>Διευρυμένο</li>
+                                <li><a href="#">Βασικό Πρόγραμμα</a></li>
+                                <li><a href="#">Διευρυμένο</a></li>
                             </ul>
                             </li>
-                            <li>Ανακοινώσεις</li>
-                            <li>Απογευματινά Τμήματα</li>
-                            <li>
+                            <li><a href="#">Εκπαιδευτικό Mοντέλο 1:1</a></li>
+                            <li><a href="#">Ανακοινώσεις</a></li>
+                            <li><a href="#">Απογευματινά Τμήματα</a></li>
+                            <li><a href="#">
                             Εκδηλώσεις - Δραστηριότητες
+                            </a>
                             <ul>
-                                <li>Εκδρομές</li>
-                                <li>Μορφωτικές Δραστηριότητες</li>
-                                <li>Πολιτιστικές Δραστηριότητες</li>
+                                <li><a href="#">Εκδρομές</a></li>
+                                <li><a href="#">Αθλητικές Δραστηριότητες</a></li>
+                                <li><a href="#">Μορφωτικές Δραστηριότητες</a></li>
+                                <li><a href="#">Πολιτιστικές Δραστηριότητες</a></li>
                             </ul>
                             </li>
-                            <li>Σχολικά Εφόδια</li>
-                            <li>Κανόνες - Κανονισμοί</li>
-                            <li>Συχνές Ερωτήσεις</li>
+                            <li><a href="#">Σχολικά Εφόδια</a></li>
+                            <li><a href="#">Κανόνες - Κανονισμοί</a></li>
+                            <li><a href="#">Συχνές Ερωτήσεις</a></li>
+                            <li><a href="#">Επικοινωνία</a></li>
                         </ul>
                         </li>
 
                         <li class="section">
                         <h3 class="sectionname">Λύκειο</h3>
                         <ul class="menu">
-                            <li>Σκοποί και Στόχοι</li>
+                            <li><a href="#">Σκοποί και Στόχοι</a></li>
                             <li>
-                            Εκπαιδευτικό Πρόγραμμα
+                            <a href="#">Εκπαιδευτικό Πρόγραμμα</a>
                             <ul>
-                                <li>Βασικό Πρόγραμμα</li>
-                                <li>Διευρυμένο</li>
+                                <li><a href="#">Βασικό Πρόγραμμα</a></li>
+                                <li><a href="#">Διευρυμένο</a></li>
                             </ul>
                             </li>
-                            <li>Ανακοινώσεις</li>
-                            <li>Απογευματινά Τμήματα</li>
-                            <li>
+                            <li><a href="#">Εκπαιδευτικό Mοντέλο 1:1</a></li>
+                            <li><a href="#">Ανακοινώσεις</a></li>
+                            <li><a href="#">Απογευματινά Τμήματα</a></li>
+                            <li><a href="#">
                             Εκδηλώσεις - Δραστηριότητες
+                            </a>
                             <ul>
-                                <li>Εκδρομές</li>
-                                <li>Μορφωτικές Δραστηριότητες</li>
-                                <li>Πολιτιστικές Δραστηριότητες</li>
+                                <li><a href="#">Εκδρομές</a></li>
+                                <li><a href="#">Αθλητικές Δραστηριότητες</a></li>
+                                <li><a href="#">Μορφωτικές Δραστηριότητες</a></li>
+                                <li><a href="#">Πολιτιστικές Δραστηριότητες</a></li>
                             </ul>
                             </li>
-                            <li>Σχολικά Εφόδια</li>
-                            <li>Κανόνες - Κανονισμοί</li>
-                            <li>Συχνές Ερωτήσεις</li>
+                            <li><a href="#">Σχολικά Εφόδια</a></li>
+                            <li><a href="#">Κανόνες - Κανονισμοί</a></li>
+                            <li><a href="#">Συχνές Ερωτήσεις</a></li>
+                            <li><a href="#">Επικοινωνία</a></li>
                         </ul>
                         </li>
 
                         <li class="section">
                         <h3 class="sectionname">Επικοινωνία</h3>
                         <ul class="menu">
-                            <li>Σκοποί και Στόχοι</li>
                             <li>
-                            Εκπαιδευτικό Πρόγραμμα
-                            <ul>
-                                <li>Βασικό Πρόγραμμα</li>
-                                <li>Διευρυμένο</li>
-                            </ul>
+                            Μεσογείων 151, Μαρούσι 15126<br/>
+                            Τηλ: <a href="tel:+302106186000">210 61 86 000</a><br/>
+                            Fax: 210 61 86 000<br>
+                            <a href="#">
+                            <img src="./UploadedFiles/Images/map.jpg">
+                            </a>
                             </li>
-                            <li>Ανακοινώσεις</li>
-                            <li>Απογευματινά Τμήματα</li>
-                            <li>
-                            Εκδηλώσεις - Δραστηριότητες
-                            <ul>
-                                <li>Εκδρομές</li>
-                                <li>Μορφωτικές Δραστηριότητες</li>
-                                <li>Πολιτιστικές Δραστηριότητες</li>
-                            </ul>
-                            </li>
-                            <li>Σχολικά Εφόδια</li>
-                            <li>Κανόνες - Κανονισμοί</li>
-                            <li>Συχνές Ερωτήσεις</li>
                         </ul>
                         </li>
 
                         <li class="section">
                         <h3 class="sectionname">ΙΒ</h3>
                         <ul class="menu">
-                            <li>Σκοποί και Στόχοι</li>
-                            <li>
+                            <li><a href="#">Σκοποί και Στόχοι</a></li>
+                            <li><a href="#">PRE - IB</a></li>
+                            <li><a href="#">
                             Εκπαιδευτικό Πρόγραμμα
                             <ul>
-                                <li>Βασικό Πρόγραμμα</li>
-                                <li>Διευρυμένο</li>
+                                <li><a href="#">Πρόγραμμα Σπουδών</a></li>
+                                <li><a href="#">Απόκτηση Διπλώματος</a></li>
+                                <li><a href="#">Εγγραφή σε Πανεπιστήμιο</a></li>
                             </ul>
-                            </li>
-                            <li>Ανακοινώσεις</li>
-                            <li>Απογευματινά Τμήματα</li>
-                            <li>
+                            </a></li>
+                            <li><a href="#">Ανακοινώσεις</a></li>
+                            <li><a href="#">
                             Εκδηλώσεις - Δραστηριότητες
+                            </a>
                             <ul>
-                                <li>Εκδρομές</li>
-                                <li>Μορφωτικές Δραστηριότητες</li>
-                                <li>Πολιτιστικές Δραστηριότητες</li>
+                                <li><a href="#">Εκδρομές</a></li>
+                                <li><a href="#">Μορφωτικές Δραστηριότητες</a></li>
+                                <li><a href="#">Πολιτιστικές Δραστηριότητες</a></li>
                             </ul>
                             </li>
-                            <li>Σχολικά Εφόδια</li>
-                            <li>Κανόνες - Κανονισμοί</li>
-                            <li>Συχνές Ερωτήσεις</li>
+                            <li><a href="#">Συχνές Ερωτήσεις</a></li>
+                            <li><a href="#">Επικοινωνία</a></li>
                         </ul>
                         </li>
 
                         <li class="section">
                         <h3 class="sectionname">Ξένες Γλώσσες</h3>
                         <ul class="menu">
-                            <li>Σκοποί και Στόχοι</li>
+                            <li><a href="#">Σκοποί και Στόχοι</a></li>
                             <li>
-                            Εκπαιδευτικό Πρόγραμμα
+                            <a href="#">Εκπαιδευτικό Πρόγραμμα</a>
                             <ul>
-                                <li>Βασικό Πρόγραμμα</li>
-                                <li>Διευρυμένο</li>
+                                <li><a href="#">Πρόγραμμα Σπουδών</a></li>
+                                <li><a href="#">Επίπεδα Ικανότητας</a></li>
+                                <li><a href="#">Δίγλωσσοι Μαθητές</a></li>
+                                <li><a href="#">Learner's Genie</a></li>
                             </ul>
                             </li>
-                            <li>Ανακοινώσεις</li>
-                            <li>Απογευματινά Τμήματα</li>
-                            <li>
+                            <li><a href="#">Ανακοινώσεις</a></li>
+                            <li><a href="#">
                             Εκδηλώσεις - Δραστηριότητες
+                            </a>
                             <ul>
-                                <li>Εκδρομές</li>
-                                <li>Μορφωτικές Δραστηριότητες</li>
-                                <li>Πολιτιστικές Δραστηριότητες</li>
+                                <li><a href="#">Εκδρομές</a></li>
+                                <li><a href="#">Μορφωτικές Δραστηριότητες</a></li>
+                                <li><a href="#">Πολιτιστικές Δραστηριότητες</a></li>
                             </ul>
                             </li>
-                            <li>Σχολικά Εφόδια</li>
-                            <li>Κανόνες - Κανονισμοί</li>
-                            <li>Συχνές Ερωτήσεις</li>
+                            <li><a href="#">Εξετάσεις</a></li>
+                            <li><a href="#">Συχνές Ερωτήσεις</a></li>
+                            <li><a href="#">Ηλ. Εφημερίδα</a></li>
+                            <li><a href="#">Επικοινωνία</a></li>
                         </ul>
                         </li>
 
                         <li class="section">
                         <h3 class="sectionname">Φυσική Αγωγή</h3>
                         <ul class="menu">
-                            <li>Σκοποί και Στόχοι</li>
+                            <li><a href="#">Σκοποί και Στόχοι</a></li>
                             <li>
-                            Εκπαιδευτικό Πρόγραμμα
+                            <a href="#">Εκπαιδευτικό Πρόγραμμα</a>
                             <ul>
-                                <li>Βασικό Πρόγραμμα</li>
-                                <li>Διευρυμένο</li>
+                                <li><a href="#">Νηπιαγωγείο</a></li>
+                                <li><a href="#">Δημοτικό</a></li>
+                                <li><a href="#">Γυμνάσιο</a></li>
+                                <li><a href="#">Λύκειο/ΙΒ</a></li>
                             </ul>
                             </li>
-                            <li>Ανακοινώσεις</li>
-                            <li>Απογευματινά Τμήματα</li>
-                            <li>
-                            Εκδηλώσεις - Δραστηριότητες
-                            <ul>
-                                <li>Εκδρομές</li>
-                                <li>Μορφωτικές Δραστηριότητες</li>
-                                <li>Πολιτιστικές Δραστηριότητες</li>
-                            </ul>
-                            </li>
-                            <li>Σχολικά Εφόδια</li>
-                            <li>Κανόνες - Κανονισμοί</li>
-                            <li>Συχνές Ερωτήσεις</li>
+                            <li><a href="#">Αθλητικό Απόγευμα</a></li>
+                            <li><a href="#">Συχνές Ερωτήσεις</a></li>
+                            <li><a href="#">Σχολικός Αθλητισμός</a></li>
+                            <li><a href="#">ΑΣΙΣ</a></li>
+                            <li><a href="#">Εσωτερικό Πρωτάθλημα</a></li>
+                            <li><a href="#">Δράσεις</a></li>
+                            <li><a href="#">Επικοινωνία</a></li>
                         </ul>
                         </li>
 
                         <li class="section">
                         <h3 class="sectionname">Πληροφορική</h3>
                         <ul class="menu">
-                            <li>Σκοποί και Στόχοι</li>
+                            <li><a href="#">Σκοποί και Στόχοι</a></li>
                             <li>
-                            Εκπαιδευτικό Πρόγραμμα
+                            <a href="#">Βαθμίδες</a>
                             <ul>
-                                <li>Βασικό Πρόγραμμα</li>
-                                <li>Διευρυμένο</li>
+                                <li><a href="#">Νηπιαγωγείο</a></li>
+                                <li><a href="#">Δημοτικό</a></li>
+                                <li><a href="#">Γυμνάσιο</a></li>
+                                <li><a href="#">Λύκειο/ΙΒ</a></li>
                             </ul>
                             </li>
-                            <li>Ανακοινώσεις</li>
-                            <li>Απογευματινά Τμήματα</li>
                             <li>
-                            Εκδηλώσεις - Δραστηριότητες
+                            <a href="#">Ερευνα και Ανάπτυξη</a>
                             <ul>
-                                <li>Εκδρομές</li>
-                                <li>Μορφωτικές Δραστηριότητες</li>
-                                <li>Πολιτιστικές Δραστηριότητες</li>
+                                <li><a href="#">έρευνα και Καινοτομίες</a></li>
+                                <li><a href="#">Ερευνιτικά Προγράμματα</a></li>
                             </ul>
                             </li>
-                            <li>Σχολικά Εφόδια</li>
-                            <li>Κανόνες - Κανονισμοί</li>
-                            <li>Συχνές Ερωτήσεις</li>
+                            <li><a href="#">Δραστηριότητες</a></li>
+                            <li><a href="#">Μεθοδολογίες 1:1</a></li>
+                            <li><a href="#">Σχέδια Εργασίας</a></li>
+                            <li><a href="#">Λυσίας</a></li>
+                            <li><a href="#">Δράσεις</a></li>
+                            <li>
+                            <a href="#">Υποδομές</a>
+                            <ul>
+                                <li><a href="#">Πληροφοριακά Συστήματα</a></li>
+                                <li><a href="#">Μαθητικος Υπολογιστής</a></li>
+                                <li><a href="#">Εκπαιδευτικό ψηφιακό υλικό</a></li>
+                                <li><a href="#">Οπτικοακουστικά</a></li>
+                                <li><a href="#">Πολυμέσα</a></li>
+                            </ul>
+                            </li>
+                            <li><a href="#">Επικοινωνία</a></li>
                         </ul>
                         </li>
 
                         <li class="section">
                         <h3 class="sectionname">Εμείς</h3>
                         <ul class="menu">
-                            <li>Σκοποί και Στόχοι</li>
+                            <li><a href="#">Σκοποί και Στόχοι</a></li>
                             <li>
-                            Εκπαιδευτικό Πρόγραμμα
+                            <a href="#">Βαθμίδες</a>
                             <ul>
-                                <li>Βασικό Πρόγραμμα</li>
-                                <li>Διευρυμένο</li>
+                                <li><a href="#">Νηπιαγωγείο</a></li>
+                                <li><a href="#">Δημοτικό</a></li>
+                                <li><a href="#">Γυμνάσιο</a></li>
+                                <li><a href="#">Λύκειο/ΙΒ</a></li>
                             </ul>
                             </li>
-                            <li>Ανακοινώσεις</li>
-                            <li>Απογευματινά Τμήματα</li>
                             <li>
-                            Εκδηλώσεις - Δραστηριότητες
+                            <a href="#">Ερευνα και Ανάπτυξη</a>
                             <ul>
-                                <li>Εκδρομές</li>
-                                <li>Μορφωτικές Δραστηριότητες</li>
-                                <li>Πολιτιστικές Δραστηριότητες</li>
+                                <li><a href="#">έρευνα και Καινοτομίες</a></li>
+                                <li><a href="#">Ερευνιτικά Προγράμματα</a></li>
                             </ul>
                             </li>
-                            <li>Σχολικά Εφόδια</li>
-                            <li>Κανόνες - Κανονισμοί</li>
-                            <li>Συχνές Ερωτήσεις</li>
+                            <li><a href="#">Δραστηριότητες</a></li>
+                            <li><a href="#">Μεθοδολογίες 1:1</a></li>
+                            <li><a href="#">Σχέδια Εργασίας</a></li>
+                            <li><a href="#">Λυσίας</a></li>
+                            <li><a href="#">Δράσεις</a></li>
+                            <li>
+                            <a href="#">Υποδομές</a>
+                            <ul>
+                                <li><a href="#">Πληροφοριακά Συστήματα</a></li>
+                                <li><a href="#">Μαθητικος Υπολογιστής</a></li>
+                                <li><a href="#">Εκπαιδευτικό ψηφιακό υλικό</a></li>
+                                <li><a href="#">Οπτικοακουστικά</a></li>
+                                <li><a href="#">Πολυμέσα</a></li>
+                            </ul>
+                            </li>
+                            <li><a href="#">Επικοινωνία</a></li>
                         </ul>
                         </li>
 
@@ -531,6 +752,7 @@
             </div>
         </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="./UploadedFiles/Javascripts/General/bootstrap.min.js"></script>
         <script > 
             $(document).ready(function(){
 
@@ -545,9 +767,8 @@
                         $(this).next(".menu").toggleClass("open");
                         $(this).toggleClass("open");
                     }
-
-
             });
+            $(".carousel").carousel();
         });
         </script>
     </body>
