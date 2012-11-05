@@ -6,6 +6,7 @@ height: 58px;
 position: relative;
 z-index: 10000;
 text-align:center;
+margin-left:2%\9;
 
 }
 
@@ -512,7 +513,7 @@ ul.associates li {
 
 @media (max-width: 979px) and (min-width: 768px){
     .topmenu {
-        margin-top:13px;
+        margin-top:8px;
     }
 
     .topmenu li.main {
@@ -522,6 +523,7 @@ ul.associates li {
     }
     .topmenu li.main a {
         padding:5px;
+        padding: 5px 10px\9;
     }
 
 
