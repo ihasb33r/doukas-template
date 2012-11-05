@@ -420,7 +420,7 @@ li.section {
     vertical-align:top;
     background:url("../../Images/Template/sectionborder.png");
     background-repeat:no-repeat;
-    background-position:right center;
+    background-position:right 68px;
     min-height:300px;
     text-align:left;
 }
@@ -551,7 +551,7 @@ ul.associates li {
         padding: 20px 3%;
         background:url("../../Images/Template/sectionborder.png");
         background-repeat:no-repeat;
-        background-position:right center;
+        background-position:right 68px;
     }
     ul.bottommenu>li.section:first-child + li.section + li.section {
         background-image:none;
@@ -559,7 +559,7 @@ ul.associates li {
     ul.bottommenu>li.section:first-child + li.section + li.section +li.section +li.section {
         background-image:url("../../Images/Template/sectionborder.png");
         background-repeat:no-repeat;
-        background-position:right center;
+        background-position:right 68px;
     }
 
     ul.bottommenu>li.section:first-child + li.section + li.section +li.section +li.section  +li.section {
