@@ -346,7 +346,7 @@
                 <div class="span12 hero">
                     <div id="myCarousel" class="carousel slide">
                         <div class="carousel-inner">
-                            <div id="carousel-buttons">
+                            <div class="carousel-buttons">
                             </div>
                             <div class="item active">
                                 <img src="./UploadedFiles/Images/sevenwhys.jpg"/>
@@ -793,17 +793,17 @@
             carousel_items.each(function(count,item){
                 buttons += "<a href='#' id='carousel-"+count+"'></a>";
             });
-            $("#carousel-buttons").append(buttons);
-            $("#carousel-buttons a").first().addClass("current");
+            $(".carousel-buttons").append(buttons);
+            $(".carousel-buttons a").first().addClass("current");
             $(".carousel").carousel();
             $('.carousel').bind('slid', function() {
                 var item = $('.carousel .carousel-inner .item.active');
-                $('#carousel-buttons a').removeClass('current');
+                $('.carousel-buttons a').removeClass('current');
                 var index = item.index();
-                $('#carousel-buttons a:nth-child(' + index + ')').addClass('current');
+                $('.carousel-buttons a:nth-child(' + index + ')').addClass('current');
             });
 
-            $("#carousel-buttons a").click( function(){
+            $(".carousel-buttons a").click( function(){
                 $(".carousel").carousel($(this).index()+1);
             });
 

@@ -273,6 +273,30 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f500fe', end
     line-height:36px;
 }
 
+.carousel-buttons {
+    top:30px;
+
+    margin-bottom:-80px;
+    position:relative;
+    height:40px;
+    z-index:1000;
+    float:right;
+    text-align:right;
+}
+
+.carousel-buttons a{
+    margin-right:10px;
+    background-color:white;
+    display:inline-block;
+    border-radius:10px;
+    width:15px;
+    height:15px;
+}
+.carousel-buttons a.current {
+    background-color:#95bf17;
+}
+
+
 .main {
     margin-top:20px;
 }
