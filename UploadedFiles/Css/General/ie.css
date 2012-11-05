@@ -1,0 +1,20 @@
+
+    .topmenu {
+        margin-top:2px;
+        width:auto;
+        margin-left:24px;
+        margin-right:24px;
+    }
+    .topmenu li.main {
+
+        margin-right:3px;
+    }
+
+    .topmenu li.main a {
+        width:121px;
+        height:24px;
+        font-size:14px;
+        padding: 0px;
+        padding-top:10px;
+
+    }
