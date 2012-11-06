@@ -38,6 +38,7 @@
                         <li class="toggle"><a href="#bottommenu">Μενού</a></li>
                         <li class=" main" id="tab1">
                         <a class="red" href="#">Νηπιαγωγείο</a>
+                        <div class="arrow"></div>
                         <div class="menucont">
                             <ul class="sub1">
                                 <li><a href="#">Σκοποί και Στόχοι</a></li>
@@ -67,6 +68,7 @@
                         </li>
                         <li id="tab2" class="main">
                         <a class="purple" href="#">Δημοτικό</a>
+                        <div class="arrow"></div>
                         <div class="menucont">
                             <ul class="sub1">
                                 <li><a href="#">Σκοποί και Στόχοι</a></li>
@@ -101,6 +103,7 @@
                         <a href="#" class="pink ">
                             Γυμνάσιο
                         </a>
+                        <div class="arrow"></div>
                         <div class="menucont">
                             <ul class="sub1">
                                 <li><a href="#">Σκοποί και Στόχοι</a></li>
@@ -135,6 +138,7 @@
                         <a href="#" class="blue ">
                             Λύκειο
                         </a>
+                        <div class="arrow"></div>
                         <div class="menucont">
                             <ul class="sub1">
                                 <li><a href="#">Σκοποί και Στόχοι</a></li>
@@ -169,6 +173,7 @@
                         <a href="#" class="green ">
                             ΙΒ
                         </a>
+                        <div class="arrow"></div>
                         <div class="menucont">
                             <ul class="sub1">
                                 <li><a href="#">Σκοποί και Στόχοι</a></li>
@@ -200,6 +205,7 @@
                         <a href="#" class="yellow ">
                             Ξένες Γλώσσες
                         </a>
+                        <div class="arrow"></div>
                         <div class="menucont">
                             <ul class="sub1">
                                 <li><a href="#">Σκοποί και Στόχοι</a></li>
@@ -233,6 +239,7 @@
                         <a href="#" class="lime ">
                             Φυσική Αγωγή
                         </a>
+                        <div class="arrow"></div>
                         <div class="menucont">
                             <ul class="sub1">
                                 <li><a href="#">Σκοποί και Στόχοι</a></li>
@@ -259,6 +266,7 @@
                         <a href="#" class="blue ">
                             Πληροφορική
                         </a>
+                        <div class="arrow"></div>
                         <div class="menucont">
                             <ul class="sub1">
                                 <li><a href="#">Σκοποί και Στόχοι</a></li>
@@ -301,6 +309,7 @@
                         <a href="#" class="green ">
                             Εμείς
                         </a>
+                        <div class="arrow"></div>
                         <div class="menucont">
                             <ul class="sub1">
                                 <li><a href="#">Σκοποί και Στόχοι</a></li>
@@ -789,8 +798,8 @@
                     else{
                         $(this).removeClass("open");
                         $("li.section h3").removeClass("open");
-                        $(".menu").removeClass("open");
-                        $(this).next(".menu").toggleClass("open");
+                        $(".bottommenu sub1").removeClass("open");
+                        $(this).next(".bottommenu .sub1").toggleClass("open");
                         $(this).toggleClass("open");
                     }
             });

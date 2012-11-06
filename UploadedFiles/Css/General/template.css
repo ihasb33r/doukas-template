@@ -95,7 +95,7 @@ body, p,li,td,a,h1,h2,h3,h4,h5,h6, dd, dt, div, span{
     background-color:#bddc36;
     position:relative;
     display:block;
-    color:#232d08;
+    color:#668316;
     line-height:1.5em;
     text-decoration:none;
 }
@@ -124,6 +124,12 @@ body, p,li,td,a,h1,h2,h3,h4,h5,h6, dd, dt, div, span{
 .lang a {
     color:gray;
 }
+
+.lang span {
+    color:gray;
+    margin:0px 5px;
+}
+
 div.menu {
     height: 58px;
     position: relative;
@@ -179,6 +185,19 @@ div.menu {
     display:none;
 }
 
+div.arrow {
+    display:none;
+height: 20px;
+background: url("../../Images/Template/menuarrow.png");
+position: relative;
+z-index: 10000;
+top: 20px;
+background-repeat: no-repeat;
+margin-bottom: -30px;
+background-position: center top;
+
+}
+
 .topmenu li.main .sub1 {
     background-color:lightgray;
     float:left;
@@ -221,6 +240,10 @@ div.menu {
 }
 
 .topmenu li.main:hover .menucont{
+    display:block;
+}
+
+.topmenu li.main:hover .arrow{
     display:block;
 }
 
@@ -512,6 +535,10 @@ li.section {
 
 
 @media (min-width: 1200px){
+
+.lang span {
+    margin:0px 10px;
+}
   .topmenu {
       margin-top:2px;
       width:auto;
@@ -521,6 +548,9 @@ li.section {
   .topmenu li.main {
 
       margin-right:3px;
+  }
+  .arrow {
+      top:27px;
   }
 
   .topmenu li.main a {
