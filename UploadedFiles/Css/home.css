@@ -1,6 +1,6 @@
-.hero .pagetitle{
-    background:#95BF17;
-    background-color:rgba(149,192,23,0.8);
+.hero .carousel-caption.pagetitle{
+    background-color:#95BF17;
+    background:rgba(149,192,23,0.8);
 }
 
 

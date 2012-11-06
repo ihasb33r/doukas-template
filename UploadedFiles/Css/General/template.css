@@ -346,6 +346,8 @@ div.arrow {
 }
 .main .news ul li {
     display:inline-block;
+    *display:inline;
+    zoom:1;
     width:29%;
     margin-right:3%;
     margin-top:0px;
