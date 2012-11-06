@@ -243,7 +243,7 @@ background-position: center top;
     display:block;
 }
 
-.topmenu li.main:hover .arrow{
+.topmenu li.main:hover div.arrow{
     display:block;
 }
 
@@ -549,7 +549,7 @@ li.section {
 
       margin-right:3px;
   }
-  .arrow {
+  div.arrow {
       top:27px;
   }
 
