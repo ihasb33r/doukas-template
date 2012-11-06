@@ -588,6 +588,10 @@ div.navigation{
       padding:5px 10px;
   }
 
+  #bottommenu {
+      padding-left:20px;
+      text-align:left;
+  }
 
   .bottommenu li.section {
       width: 26%;
