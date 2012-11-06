@@ -405,7 +405,6 @@ div.navigation{
     background: -o-linear-gradient(top, #d6d6d6 0%,#d8d8d8 0%,#dadada 11%,#e2e2e2 30%,#e8e8e8 41%,#eaeaea 42%,#eaeaea 100%); /* Opera 11.10+ */
     background: -ms-linear-gradient(top, #d6d6d6 0%,#d8d8d8 0%,#dadada 11%,#e2e2e2 30%,#e8e8e8 41%,#eaeaea 42%,#eaeaea 100%); /* IE10+ */
     background: linear-gradient(to bottom, #d6d6d6 0%,#d8d8d8 0%,#dadada 11%,#e2e2e2 30%,#e8e8e8 41%,#eaeaea 42%,#eaeaea 100%); /* W3C */
-    -pie-background: linear-gradient(to bottom, #d6d6d6 0%,#d8d8d8 0%,#dadada 11%,#e2e2e2 30%,#e8e8e8 41%,#eaeaea 42%,#eaeaea 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6d6d6', endColorstr='#eaeaea',GradientType=0 ); /* IE6-9 */
 
 }
