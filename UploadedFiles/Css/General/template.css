@@ -449,18 +449,18 @@ li.section {
      font-size:11px;
      line-height:14px;
  }
- .bottommenu ul.menu ul {
+ .bottommenu ul.sub1 ul {
      list-style:none;
      padding:0px;
      margin:0 0 0px 14px;
  }
- .bottommenu ul.menu ul li:before{
+ .bottommenu ul.sub1 ul li:before{
 
      content:"-";
 
  }
 
- .bottommenu ul.menu {
+ .bottommenu ul.sub1 {
      list-style: none;
      margin-left: 10px;
 
