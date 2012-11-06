@@ -204,6 +204,7 @@ div.arrow {
     top: 20px;
     background-repeat: no-repeat;
     margin-bottom: -30px;
+    *margin-bottom:-20px;
     background-position: center top;
 }
 
@@ -288,10 +289,9 @@ div.arrow {
 #tab9 ul.sub1 {
     margin-left:-418px;
 }
-
-.hero .pagetitle{
-    background:#FF0000;
-    background-color:rgba(255,0,0,0.8);
+.hero .carousel-caption.pagetitle{
+    background-color:#FF0000;
+    background:rgba(255,0,0,0.8);
     padding:5px 34px;
 }
 .hero .pagetitle h1 {
@@ -545,9 +545,14 @@ div.navigation{
   .topmenu li.section {
 
       margin-right:3px;
+      position:relative;
+      z-index:14000;
   }
   div.arrow {
-      top:27px;
+      margin-top:4px;
+      margin-bottom:-13px;
+      position:relative;
+      z-index:15000;
   }
 
   .topmenu li.section a {
